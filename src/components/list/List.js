@@ -9,6 +9,19 @@ export default class List extends Lightning.Component {
                 transitions: {
                     x: {duration: .3, timingFunction: 'cubic-bezier(0.20, 1.00, 0.80, 1.00)'}
                 }
+            },
+            Focus: {
+                /**
+                 * @ todo: Your goal is to add a focus indicator. Please take a look at the video
+                 * and inspect the rectanle frame that's before the focused movie item.
+                 * extra: Animate it a bit when the focus changes to the next item
+                 */
+            },
+            Metadata: {
+                /**
+                 * @todo: Your goal is to add a component that have multiple text labels,
+                 * 1 for the Title of the selected asset and 1 for the genre.
+                 */
             }
         }
     }

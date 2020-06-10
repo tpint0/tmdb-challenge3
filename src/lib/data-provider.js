@@ -24,4 +24,11 @@ export default () => {
         page.data = movies;
     }, 10 * 60 /* expires */);
 
+
+    /**
+     * @todo:
+     * add a data-provider for the new series route
+     * and make sure you call grab the series from TMDBl
+     * https://api.themoviedb.org/3/tv/popular?api_key=${apiKey}
+     */
 }

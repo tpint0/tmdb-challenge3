@@ -14,5 +14,20 @@ export default () =>{
     Router.root('splash', Splash);
     // Add route for movies
     Router.route('movies', Main);
+
+    /**
+     * @todo:
+     * uncomment this line
+     * Router.route('home/series', Main);
+     * or this:
+     * Router.route('series', Main);
+     *
+     * how ever you wish to configure your route, you can attach the same
+     * page to different routes, so it lets your re-use the instance (or destroy and lazy create)
+     *
+     * You also need to add the proper data-provider
+     */
+
+
     Router.start();
 }
